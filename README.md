@@ -22,7 +22,3 @@ Common foundation for my AI specialization path (ML, deep learning, PyTorch). Ev
 - [ ] Error-analysis report on failure cases and improvements
 - [ ] Documented evidence for every completed module
 
-## Rules
-- Original work only. No copied Coursera/Stanford solutions, answer keys, private test data, API keys or licensed datasets.
-- Regular, meaningful commits from the first week.
-- Each module: README, code, requirements, results, REFLECTION.md.
