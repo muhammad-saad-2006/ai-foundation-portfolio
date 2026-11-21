@@ -6,8 +6,8 @@ Common foundation for my AI specialization path (ML, deep learning, PyTorch). Ev
 
 | #   | Module                            | Status      | Start      | Finish     | Folder                                     |
 | --- | --------------------------------- | ----------- | ---------- | ---------- | ------------------------------------------ |
-| 01  | Python, NumPy, Pandas, Git        | Completed   | 10-10-2026 | 11-10-2026 | [01](01-python-numpy-pandas-git)           |
-| 02  | ML Specialization Course 1        | Not started |            |            | [02](02-ml-specialization-course-1)        |
+| 01  | Python, NumPy, Pandas, Git        | Completed   | 18-11-2026 | 19-11-2026 | [01](01-python-numpy-pandas-git)           |
+| 02  | ML Specialization Course 1        | In Progress | 21-11-2026 |            | [02](02-ml-specialization-course-1)        |
 | 03  | Classical ML comparison           | Not started |            |            | [03](03-classical-ml-comparison)           |
 | 04  | Neural nets and model improvement | Not started |            |            | [04](04-neural-nets-and-model-improvement) |
 | 05  | PyTorch basics                    | Not started |            |            | [05](05-pytorch-basics)                    |
