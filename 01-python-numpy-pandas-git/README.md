@@ -197,35 +197,85 @@ Practiced statistical visualization:
 - Heatmaps.
 - Cluster maps.
 
+---
+
 ## How to Run
 
-Clone the repository:
+This module uses the shared Python environment managed by **uv** at the repository root.
+
+You do not need to create a separate virtual environment or install dependencies for this module.
+
+Refer to the [root README — Environment Setup](../README.md#environment-setup) for installation instructions.
+
+### 1. Navigate to the Repository Root
+
+All commands below should be executed from the root directory:
 
 ```bash
-git clone https://github.com/muhammad-saad-2006/ai-foundation-portfolio.git
+cd ai-foundation-portfolio
 ```
 
-Navigate to this module:
+### 2. Synchronize the Environment
 
 ```bash
-cd ai-foundation-portfolio/01-python-numpy-pandas-git
+uv sync
 ```
 
-Create and activate a virtual environment:
+This installs the dependencies declared in the root `pyproject.toml` using the shared `uv.lock` file.
+
+### 3. Run Python Exercises
+
+Use `uv run` to execute individual Python scripts.
+
+Example — E-commerce application:
 
 ```bash
-python -m venv .venv
+uv run python "01-python-numpy-pandas-git/src/Basic Python/ecommerce.py"
 ```
 
-Open the notebooks inside the `notebooks/` directory.
-
-For individual Python exercises, run:
+Example — Inventory management:
 
 ```bash
-python "src/Basic Python/ecommerce.py"
+uv run python "01-python-numpy-pandas-git/src/Basic Python/inventory.py"
 ```
 
-**Note:** Some notebooks currently contain local dataset paths. Update those paths to match your own dataset location before executing the corresponding cells.
+For other Python exercises, replace the file path with the desired script.
+
+### 4. Run Jupyter Notebooks
+
+**Using VS Code:**
+
+1. Open the repository in VS Code.
+2. Navigate to the `01-python-numpy-pandas-git/notebooks/` directory.
+3. Open the desired `.ipynb` file.
+4. Select the Python kernel from the repository's `.venv` environment.
+5. Execute the notebook cells.
+
+Make sure the Python and Jupyter extensions are installed in VS Code.
+
+**Using JupyterLab:**
+
+JupyterLab can be installed once at the repository root:
+
+```bash
+uv add jupyterlab
+```
+
+Launch JupyterLab:
+
+```bash
+uv run jupyter lab
+```
+
+Navigate to the desired notebook and execute its cells.
+
+### 5. Dataset Paths
+
+Some notebooks currently contain local dataset paths.
+
+Update those paths to match your own dataset location before executing the corresponding cells.
+
+---
 
 ## Key Takeaways
 
