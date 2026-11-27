@@ -58,9 +58,6 @@ It focuses on Python programming, object-oriented programming, numerical computi
 │       └── eda/
 │           └── insurance-claim.ipynb
 │
-├── results/
-│
-├── requirements.txt
 └── README.md
 ```
 
