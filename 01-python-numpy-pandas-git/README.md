@@ -217,18 +217,6 @@ Create and activate a virtual environment:
 python -m venv .venv
 ```
 
-Install the dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Launch Jupyter:
-
-```bash
-jupyter notebook
-```
-
 Open the notebooks inside the `notebooks/` directory.
 
 For individual Python exercises, run:
@@ -238,20 +226,6 @@ python "src/Basic Python/ecommerce.py"
 ```
 
 **Note:** Some notebooks currently contain local dataset paths. Update those paths to match your own dataset location before executing the corresponding cells.
-
-## Results and Evidence
-
-The `results/` directory is reserved for selected evidence produced during practical exercises and analysis.
-
-Planned evidence includes:
-
-- NumPy array operation outputs.
-- Pandas DataFrame and data-cleaning examples.
-- Exploratory data analysis charts.
-- Matplotlib and Seaborn visualizations.
-- Cleaned dataset samples and analysis summaries.
-
-Only results that have actually been generated and saved should be listed here.
 
 ## Key Takeaways
 
