@@ -19,15 +19,13 @@ The course work is organized into three weekly learning folders and a separate i
 ├── Week 3/                  # Logistic regression, overfitting, and regularization
 │
 ├── course-1-implementation/
-│   ├── README.md
-│   ├── numpy-practice.ipynb
-│   ├── linear-regression-from-scratch.ipynb
-│   ├── multiple-linear-regression-and-feature-scaling.ipynb
-│   ├── polynomial-regression.ipynb
-│   └── logistic-regression.ipynb
-│       # regularization-experiments.ipynb is planned
-│
-└── results/                 # Experiment plots and output figures
+   ├── README.md
+   ├── numpy-practice.ipynb
+   ├── linear-regression-from-scratch.ipynb
+   ├── multiple-linear-regression-and-feature-scaling.ipynb
+   ├── polynomial-regression.ipynb
+   └── logistic-regression.ipynb
+       # regularization-experiments.ipynb is planned
 ```
 
 ## Learning roadmap
