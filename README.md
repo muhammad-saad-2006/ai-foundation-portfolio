@@ -10,7 +10,7 @@ Each module contains original implementations, experiments, results, and reflect
 | --- | ------------------------------------- | ----------- | ---------- | ---------- | ------------------------------------------ |
 | 01  | Python, NumPy, Pandas, Git            | Completed   | 18-11-2026 | 19-11-2026 | [01](01-python-numpy-pandas-git)           |
 | 02  | ML Specialization Course 1            | Completed   | 21-11-2026 | 27-11-2026 | [02](02-ml-specialization-course-1)        |
-| 03  | Classical ML Comparison               | Not started |            |            | [03](03-classical-ml-comparison)           |
+| 03  | ML Specialization Course 2            | Not started |            |            | [03](03-ml-specialization-course-2)        |
 | 04  | Neural Networks and Model Improvement | Not started |            |            | [04](04-neural-nets-and-model-improvement) |
 | 05  | PyTorch Basics                        | Not started |            |            | [05](05-pytorch-basics)                    |
 | 06  | MLP and CNN Training Loops            | Not started |            |            | [06](06-mlp-cnn-training-loops)            |
